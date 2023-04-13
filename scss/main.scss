@@ -882,16 +882,14 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -80%) scale(0.9);
-  width: 400px;
-  max-width: 95%;
-  min-height: 550px;
+  width: 350px;
   box-shadow: 0 10px 30px rgba(#000, 0.2);
   background-color: #101827;
   border-radius: 10px;
   transition: all 0.18s ease-in-out;
   visibility: hidden;
   opacity: 0;
-  padding-top: 20px;
+  padding: 20px 0;
   box-shadow: 1px 1px 10px white;
 
   &.show {
@@ -989,21 +987,10 @@ img {
   color: red;
   background-color: initial;
   border: none;
-  margin-top: 28px;
+  margin-top: 20px;
   cursor: pointer;
 }
 .modal-close:hover {
   color: darkred;
   transition: 0.5s;
-}
-
-@media only screen and (max-width: 450px) {
-  .modal-window {
-    max-width: 90%;
-    min-height: 78%;
-    padding-top: 25px;
-  }
-  .modal-close {
-    margin-top: 15px;
-  }
 }
